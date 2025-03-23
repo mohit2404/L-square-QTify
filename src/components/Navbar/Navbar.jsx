@@ -7,7 +7,7 @@ import styles from "./Navbar.module.css";
 
 function Navbar({ searchData }) {
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles.nav}>
       <Link to="/">
         <Logo />
       </Link>
@@ -15,7 +15,7 @@ function Navbar({ searchData }) {
         placeholder="Search a song of your choice"
         searchData={searchData}
       />
-      <Button>Give Feedback</Button>
+      <Button className={styles.button}>Give Feedback</Button>
     </nav>
   );
 }

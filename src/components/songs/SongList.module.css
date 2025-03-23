@@ -1,0 +1,39 @@
+.wrapper {
+  margin-top: 2rem;
+  padding-inline: 3.5rem;
+  border-block: 1px solid var(--color-primary);
+  padding-block: 2rem;
+}
+
+.para {
+  color: var(--color-light);
+}
+
+.tilesWrapper {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.button {
+  cursor: pointer;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 600;
+  color: var(--color-light);
+}
+
+.active {
+  border-bottom-width: 4px;
+  border-color: var(--color-primary);
+  padding-bottom: 0.25rem;
+}
+
+.carousel {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  overflow-x: scroll;
+}

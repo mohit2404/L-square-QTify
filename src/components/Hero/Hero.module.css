@@ -7,3 +7,25 @@
   text-align: center;
   gap: 30px;
 }
+
+.wrapper {
+  background-color: var(--color-dark);
+}
+
+.header {
+  margin-inline: auto;
+  display: flex;
+  width: 100%;
+  max-width: 48rem;
+  align-items: center;
+  column-gap: 2rem;
+  padding-block: 2rem;
+}
+
+.heading {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-light);
+}

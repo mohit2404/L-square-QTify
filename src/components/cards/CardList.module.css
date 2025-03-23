@@ -1,0 +1,33 @@
+.wrapper {
+  padding-inline: 3.5rem;
+  margin-top: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: var(--color-light);
+}
+
+.button {
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+.carousel {
+  position: relative;
+  margin-top: 1rem;
+  display: flex;
+  scroll-snap-type: x proximity;
+  align-items: center;
+  gap: 2.5rem;
+  overflow-x: scroll;
+}
+
+.active {
+    flex-wrap: wrap;
+}

@@ -1,39 +1,38 @@
-.search {
-  padding: 14px 20px;
-  height: 100%;
-  border-radius: 8px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border: 1px solid var(--color-black);
-  width: 502px;
-}
-
 .wrapper {
-  display: flex;
-  align-items: stretch;
-  height: 48px;
+  position: relative;
+  width: 100%;
+  max-width: 36rem;
 }
 
-.searchButton {
-  border-radius: 0px 8px 8px 0px;
-  padding: 14px 20px;
-  height: 100%;
-  border: 1px solid var(--color-black);
-  border-left: none;
-  cursor: pointer;
-  height: 100%;
-}
-
-.listElement {
-  padding: 15px;
+.form {
+  position: relative;
   display: flex;
+  height: 3rem;
+  width: 100%;
   justify-content: space-between;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  background-color: #FFFFFF;
 }
 
-.albumTitle {
-  font-size: 16px;
+.input {
+  width: 100%;
+  border-start-start-radius: 0.5rem;
+  border-end-start-radius: 0.5rem;
+  border-color: rgb(0, 0, 0);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  outline-width: 0px;
 }
 
-.albumArtists {
-  font-size: 12px;
+.input:focus {
+  outline-width: 0px;
+}
+
+.button {
+  display: grid;
+  height: 100%;
+  width: 4rem;
+  place-items: center;
+  border-left-width: 1px;
 }
