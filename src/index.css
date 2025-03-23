@@ -20,7 +20,7 @@ body {
 }
 
 .button:hover {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
