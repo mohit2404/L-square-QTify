@@ -1,0 +1,18 @@
+.button {
+  cursor: pointer;
+  height: 3rem;
+  border-radius: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  background-color: var(--color-dark);
+  color: var(--color-primary);
+  font-family: "Poppins", sans-serif;
+}
+
+.button:hover {
+  cursor: pointer;
+}

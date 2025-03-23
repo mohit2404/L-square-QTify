@@ -30,6 +30,7 @@
 }
 
 .button {
+  cursor: pointer;
   display: grid;
   height: 100%;
   width: 4rem;
