@@ -7,7 +7,7 @@ export default function Carousel({ className, children, showNavigation }) {
   const nextSlide = () => {
     if (slideRef.current) {
       const cardWidth =
-        slideRef.current.querySelector(".snap-start")?.clientWidth ?? 0;
+        slideRef.current.querySelector(".card-snap-start")?.clientWidth ?? 0;
 
       const currentScroll = slideRef.current.scrollLeft;
 
@@ -21,7 +21,7 @@ export default function Carousel({ className, children, showNavigation }) {
   const prevSlide = () => {
     if (slideRef.current) {
       const cardWidth =
-        slideRef.current.querySelector(".snap-start")?.clientWidth ?? 0;
+        slideRef.current.querySelector(".card-snap-start")?.clientWidth ?? 0;
       const currentScroll = slideRef.current.scrollLeft;
       slideRef.current.scrollTo({
         left: currentScroll - cardWidth,
