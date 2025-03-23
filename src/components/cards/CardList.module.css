@@ -15,6 +15,7 @@
 
 .button {
   color: var(--color-primary);
+  font-family: "Poppins", sans-serif;
 }
 
 .button:hover {

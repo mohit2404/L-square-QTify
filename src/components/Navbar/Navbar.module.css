@@ -17,7 +17,8 @@
   font-weight: 600;
   letter-spacing: 0.025em;
   background-color: var(--color-dark);
-  color: var(--color-primary)
+  color: var(--color-primary);
+  font-family: "Poppins", sans-serif;
 }
 
 .button:hover {

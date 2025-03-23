@@ -35,6 +35,7 @@
   width: 4rem;
   place-items: center;
   border-left-width: 1px;
+  font-family: "Poppins", sans-serif;
 }
 
 .button:hover {

@@ -21,6 +21,7 @@
   padding-right: 0.5rem;
   font-weight: 600;
   color: var(--color-light);
+  font-family: "Poppins", sans-serif;
 }
 
 .button:hover {
