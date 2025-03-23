@@ -14,8 +14,11 @@
 }
 
 .button {
-  cursor: pointer;
   color: var(--color-primary);
+}
+
+.button:hover {
+  cursor: pointer;
 }
 
 .carousel {
@@ -29,5 +32,5 @@
 }
 
 .active {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }

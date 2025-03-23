@@ -36,3 +36,7 @@
   place-items: center;
   border-left-width: 1px;
 }
+
+.button:hover {
+  cursor: pointer;
+}
