@@ -13,6 +13,11 @@ body {
   --color-dark: #121212;
   --color-light: #ffffff;
 }
+:root {
+  --color-primary: #34c94b;
+  --color-dark: #121212;
+  --color-light: #ffffff;
+}
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .scrollbar-hide::-webkit-scrollbar {
